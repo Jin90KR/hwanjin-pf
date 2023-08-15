@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Roboto:wght@300&display=swap');
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: ;
+    background-color: hsl(0, 0%, 87%) ;
+    color: ;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: hsl(0, 0%, 87%) ;
+    z-index: 100;
+    transition: box-shadow .4s;
+}
+
+.nav{
+    position: relative;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    display: flex;
+    column-gap: .5rem;
+    align-items: center;
+    font-weight: 700;
+    color: black;
+}
+
+.nav-logo-circle,
+.nav-toggle{
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    color: white;
+    display:grid;
+    place-items: center;
+}
+
+.nav-logo-circle{
+    border-radius: 50%;
+}
+
+.nav-toggle{
+    cursor: pointer;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    column-gap: 4rem;
+}
+
+/* hide for small display */
+.nav-name,
+.nav-toggle,
+.nav-title,
+.nav-close{
+    display: none;
+}
+
+.nav-link{
+    color: 
+}
